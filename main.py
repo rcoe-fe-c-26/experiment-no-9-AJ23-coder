@@ -7,18 +7,15 @@ print("--- Factorial Finder ---\n")
 
 
 # Write your code here
- 
-num = int(input("Enter the number: "))
+factorial = 1 
 
-if num < 0:
-    print("Factorial is not defined for negative numbers")
-else:
-    factorial = 1
-    for x in range(1, num + 1):
-        factorial *= x
-    print(factorial)
+num=int(input("Enter the number:"))   
 
-
+for x in range(1,(num+1)):
+    factorial=factorial*x
+    
+print(factorial)
+    
 
 
 
