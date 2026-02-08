@@ -9,11 +9,16 @@ print("--- Factorial Finder ---\n")
 # Write your code here
 factorial = 1 
  
-num=int(input("Enter the number:"))   
+num = int(input("Enter the number: "))
 
-for x in range(0,(num+1)):
-    factorial=factorial*x
-    
-print(factorial)
-    
+if num < 0:
+    print("Factorial is not defined for negative numbers")
+else:
+    factorial = 1
+    for x in range(1, num + 1):
+        factorial *= x
+    print(factorial)
+
+
+
 
