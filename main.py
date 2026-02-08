@@ -7,7 +7,6 @@ print("--- Factorial Finder ---\n")
 
 
 # Write your code here
-factorial = 1 
  
 num = int(input("Enter the number: "))
 
@@ -18,6 +17,7 @@ else:
     for x in range(1, num + 1):
         factorial *= x
     print(factorial)
+
 
 
 
